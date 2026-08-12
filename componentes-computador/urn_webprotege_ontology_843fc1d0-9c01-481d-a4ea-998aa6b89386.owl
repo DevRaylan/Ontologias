@@ -1,0 +1,3385 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:843fc1d0-9c01-481d-a4ea-998aa6b89386#"
+     xml:base="urn:webprotege:ontology:843fc1d0-9c01-481d-a4ea-998aa6b89386"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:843fc1d0-9c01-481d-a4ea-998aa6b89386"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9C3qLr2hqss6w1ulLunZ66 -->
+
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/R9C3qLr2hqss6w1ulLunZ66">
+        <rdfs:label xml:lang="en">Armazenamento</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4vv8xYyv1u2E5GLwL9ngz -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R4vv8xYyv1u2E5GLwL9ngz">
+        <rdfs:label xml:lang="en">isResolvedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5Kj8nH7b5Su0LMs1wna8v -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R5Kj8nH7b5Su0LMs1wna8v">
+        <rdfs:label xml:lang="en">affects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R73GI6vzR2NuHwlzLkTlZis -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R73GI6vzR2NuHwlzLkTlZis">
+        <rdfs:label xml:lang="en">authenticatesOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7487Yx5NO8LwIE3LTvNrxM -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7487Yx5NO8LwIE3LTvNrxM">
+        <rdfs:label xml:lang="en">containsSoftware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77kjmk5AIFZh0cZjwCJ0GN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R77kjmk5AIFZh0cZjwCJ0GN">
+        <rdfs:label xml:lang="en">enablesPeripheral</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7A4aPV6MLqirBTUsx8JW28 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7A4aPV6MLqirBTUsx8JW28">
+        <rdfs:label xml:lang="en">cools</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JGafQ1JPk4zrdviRE7rIL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7JGafQ1JPk4zrdviRE7rIL">
+        <rdfs:label xml:lang="en">logs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Jwk9ZlDQCDljly7Savb3J -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7Jwk9ZlDQCDljly7Savb3J">
+        <rdfs:label xml:lang="en">powers</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Jwy7Ne9IyWI4qXQ74OgiS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7Jwy7Ne9IyWI4qXQ74OgiS">
+        <rdfs:label xml:lang="en">supportsOutputDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7M4aTtvU1hxizQppc9fnlS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7M4aTtvU1hxizQppc9fnlS">
+        <rdfs:label xml:lang="en">configures</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7VQWQ2RwrUu7qjEtHgBu5r -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7VQWQ2RwrUu7qjEtHgBu5r">
+        <rdfs:label xml:lang="en">isCompatibleWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7a9FXVWjSEJg9Z63QpVadU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7a9FXVWjSEJg9Z63QpVadU">
+        <rdfs:label xml:lang="en">has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7b6XHSDWUU4e0EPewaCeIt -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7b6XHSDWUU4e0EPewaCeIt">
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7byFIsYPWHgGeMzPDpb8FZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7byFIsYPWHgGeMzPDpb8FZ">
+        <rdfs:label xml:lang="en">reportsIssueWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7dImUP7xKWhDnQMSBMFWWj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7dImUP7xKWhDnQMSBMFWWj">
+        <rdfs:label xml:lang="en">initializes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jQ9jnMJPL0oaMAuc4cZcF -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7jQ9jnMJPL0oaMAuc4cZcF">
+        <rdfs:label xml:lang="en">protects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci">
+        <rdfs:label xml:lang="en">hasManufacturer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7w9gCzIufdaO85lAqGV3Sj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7w9gCzIufdaO85lAqGV3Sj">
+        <rdfs:label xml:lang="en">requiresHardware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GHyYF8df1WZFpJrHD9aVC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8GHyYF8df1WZFpJrHD9aVC">
+        <rdfs:label xml:lang="en">encryptsWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GL3tycwxj8A6Z2l90he6z -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8GL3tycwxj8A6Z2l90he6z">
+        <rdfs:label xml:lang="en">Credential</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GtvLMxkadkmxuqPEXkdN7 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8GtvLMxkadkmxuqPEXkdN7">
+        <rdfs:label xml:lang="en">hasPeripheral</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LQnJPdxWfwjainJCABXV9 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8LQnJPdxWfwjainJCABXV9">
+        <rdfs:label xml:lang="en">configuredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UP4ItnI4qrJLN6m341g9J -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8UP4ItnI4qrJLN6m341g9J">
+        <rdfs:label xml:lang="en">isInstalledOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8VxhRBziE4ORRsEMdZLLwc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8VxhRBziE4ORRsEMdZLLwc">
+        <rdfs:label xml:lang="en">isEditedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YnIAzelLW4YjZspIOdTs2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8YnIAzelLW4YjZspIOdTs2">
+        <rdfs:label xml:lang="en">containsFirmware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dduNH1QjOzBZk4cafyhqx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8dduNH1QjOzBZk4cafyhqx">
+        <rdfs:label xml:lang="en">authenticatesWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fMu6mZKIT2j3LtPkNwbw0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8fMu6mZKIT2j3LtPkNwbw0">
+        <rdfs:label xml:lang="en">monitors</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8i7LmgO4OfgoWVIAQd4Bqc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8i7LmgO4OfgoWVIAQd4Bqc">
+        <rdfs:label xml:lang="en">loads</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8kN5tni4PfBowIVcmrVmcX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8kN5tni4PfBowIVcmrVmcX">
+        <rdfs:label xml:lang="en">connectsVia</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8u680oQsG9F2CkUedNAgHb -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8u680oQsG9F2CkUedNAgHb">
+        <rdfs:label xml:lang="en">requiresLicense</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4">
+        <rdfs:label xml:lang="en">isUsedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX">
+        <rdfs:label xml:lang="en">runsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DcaiGl9WXPjm0Y0hBDISV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9DcaiGl9WXPjm0Y0hBDISV">
+        <rdfs:label xml:lang="en">controls</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Qj39HltzP3GQafJqvPLoc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9Qj39HltzP3GQafJqvPLoc">
+        <rdfs:label xml:lang="en">containsErrorReport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj">
+        <rdfs:label xml:lang="en">usesDriver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9p61kFpfPzlJpz6K8yeRmd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9p61kFpfPzlJpz6K8yeRmd">
+        <rdfs:label xml:lang="en">isRecognizedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9s2lQmjcZlVN83FRIt0I4B -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9s2lQmjcZlVN83FRIt0I4B">
+        <rdfs:label xml:lang="en">hasType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB7VmG1OK4FsOBZ6KP5knaI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB7VmG1OK4FsOBZ6KP5knaI">
+        <rdfs:label xml:lang="en">issuedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBCshnNZsmCapAysMkIrYKj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBCshnNZsmCapAysMkIrYKj">
+        <rdfs:label xml:lang="en">logsEventFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJXSKVjDlLOKHLmabKdct7 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBJXSKVjDlLOKHLmabKdct7">
+        <rdfs:label xml:lang="en">hasLicense</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKX0WhZV42QkR9NtqJrHjI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBKX0WhZV42QkR9NtqJrHjI">
+        <rdfs:label xml:lang="en">hasDependency</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRfxzzNTBRwZ9AquifOHd8 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBRfxzzNTBRwZ9AquifOHd8">
+        <rdfs:label xml:lang="en">logsActivityTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBS84H4agNzcWbDieurR5VQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBS84H4agNzcWbDieurR5VQ">
+        <rdfs:label xml:lang="en">controlsHardware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgE8ytdOarYj2wgm5W1Ner -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBgE8ytdOarYj2wgm5W1Ner">
+        <rdfs:label xml:lang="en">supportsInputDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf">
+        <rdfs:label xml:lang="en">isInstalledIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrr2yIOwqzbEKr1OMkaSyX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBrr2yIOwqzbEKr1OMkaSyX">
+        <rdfs:label xml:lang="en">receivesUpdateNotificationFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzj6nreOmDlgiN0ymC6GIM -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBzj6nreOmDlgiN0ymC6GIM">
+        <rdfs:label xml:lang="en">runs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA">
+        <rdfs:label xml:lang="en">dependsOn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC5WkShBIl1dowZBJ1lX4mQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC5WkShBIl1dowZBJ1lX4mQ">
+        <rdfs:label xml:lang="en">communicatesUsing</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCLX8O2iNiH7EEhDOyJZD0F -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCLX8O2iNiH7EEhDOyJZD0F">
+        <rdfs:label xml:lang="en">isUpdatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n">
+        <rdfs:label xml:lang="en">hasComponent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRrSabfCRnefXYM8hkkq6Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCRrSabfCRnefXYM8hkkq6Q">
+        <rdfs:label xml:lang="en">isRequiredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSbAHhaUuHa5suGQ0uOWI2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCSbAHhaUuHa5suGQ0uOWI2">
+        <rdfs:label xml:lang="en">hasChipset</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVDLb2Rs2jFzQfO8Ce6W2B -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCVDLb2Rs2jFzQfO8Ce6W2B">
+        <rdfs:label xml:lang="en">appliesTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXgEWfzkCypkJgvlz7lklR -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCXgEWfzkCypkJgvlz7lklR">
+        <rdfs:label xml:lang="en">uses</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZCQtc6MAZWZnbQkiSJQ4j -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCZCQtc6MAZWZnbQkiSJQ4j">
+        <rdfs:label xml:lang="en">connectsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChyD2UPDCIZB4j5o3y81em -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RChyD2UPDCIZB4j5o3y81em">
+        <rdfs:label xml:lang="en">requiresCoolingFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClLRX3h6vAZbDC5zE5HrE2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RClLRX3h6vAZbDC5zE5HrE2">
+        <rdfs:label xml:lang="en">TwoFactorAuth</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmBFTB2Qg7u6qTyLPtp8Z1 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCmBFTB2Qg7u6qTyLPtp8Z1">
+        <rdfs:label xml:lang="en">checks</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCo0GEq16Wz9FzqmtwqjmRN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCo0GEq16Wz9FzqmtwqjmRN">
+        <rdfs:label xml:lang="en">definesCommunicationFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrhbaNefKtqlKLFCDmkr6F -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCrhbaNefKtqlKLFCDmkr6F">
+        <rdfs:label xml:lang="en">isAuthorizedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCsAXN6ZKKLvmkBY0F1B4kI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCsAXN6ZKKLvmkBY0F1B4kI">
+        <rdfs:label xml:lang="en">isReleasedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J">
+        <rdfs:label xml:lang="en">isStoredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxeH4YBXp6i06bD7HoXMPU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCxeH4YBXp6i06bD7HoXMPU">
+        <rdfs:label xml:lang="en">supportsProtocol</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxjj6cGg2D46JRJPfSwDrs -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCxjj6cGg2D46JRJPfSwDrs">
+        <rdfs:label xml:lang="en">isConnectedTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0wbpG4DozUhAAIeTu7txL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RD0wbpG4DozUhAAIeTu7txL">
+        <rdfs:label xml:lang="en">requiresDevice</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDCHryYz4imkUt16yfKN2DB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDCHryYz4imkUt16yfKN2DB">
+        <rdfs:label xml:lang="en">requiresDriver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDP4S5cuMEsJXn4Nf4X5IVN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDP4S5cuMEsJXn4Nf4X5IVN">
+        <rdfs:label xml:lang="en">isCapturedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUzKPs2EVSgolRRiSKFFIo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDUzKPs2EVSgolRRiSKFFIo">
+        <rdfs:label xml:lang="en">hasComponentSlot</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q">
+        <rdfs:label xml:lang="en">protectsAccessTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYp4Zwpz2ljI8nJKenJXdv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDYp4Zwpz2ljI8nJKenJXdv">
+        <rdfs:label xml:lang="en">generatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZQJugytbssgfDGTX9dLog -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDZQJugytbssgfDGTX9dLog">
+        <rdfs:label xml:lang="en">hasUser</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDb908g3WhvAAqYPhek1wGB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDb908g3WhvAAqYPhek1wGB">
+        <rdfs:label xml:lang="en">updatesWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbYErpAg9BiVsugelh8COv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDbYErpAg9BiVsugelh8COv">
+        <rdfs:label xml:lang="en">supportsSoftware</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDimWgli0INlckdHLamxOdy -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDimWgli0INlckdHLamxOdy">
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDl2GuCOvcactf6KPlomSau -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDl2GuCOvcactf6KPlomSau">
+        <rdfs:label xml:lang="en">hasPart</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDngXEqb2P5Pkvx4Jvn5OZd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDngXEqb2P5Pkvx4Jvn5OZd">
+        <rdfs:label xml:lang="en">isUsedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoUQKa2Is81etZH3CTOWBv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDoUQKa2Is81etZH3CTOWBv">
+        <rdfs:label xml:lang="en">receivesUpdatesFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsjIDOlftZVHCyEOWjwsTR -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDsjIDOlftZVHCyEOWjwsTR">
+        <rdfs:label xml:lang="en">initiates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvg6WrGlGnbHYebfm4d2zi -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDvg6WrGlGnbHYebfm4d2zi">
+        <rdfs:label xml:lang="en">initiatedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REfAiDIOynIsI3bp2O9Wap -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/REfAiDIOynIsI3bp2O9Wap">
+        <rdfs:label xml:lang="en">updates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFwb4MWbzyhHXzrrmDRHam -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RFwb4MWbzyhHXzrrmDRHam">
+        <rdfs:label xml:lang="en">isFirmwareOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGnTFtiCEExrWaYtdcAEiY -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RGnTFtiCEExrWaYtdcAEiY">
+        <rdfs:label xml:lang="en">reportedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHVEfxeDlx4moHUybmKSW6 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RHVEfxeDlx4moHUybmKSW6">
+        <rdfs:label xml:lang="en">isAccessedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNFL0qoCjnkuZbzFCrUjNI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RNFL0qoCjnkuZbzFCrUjNI">
+        <rdfs:label xml:lang="en">isConfiguredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPCG6LFWEhkwH2JSFJOWbr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RPCG6LFWEhkwH2JSFJOWbr">
+        <rdfs:label xml:lang="en">AuthenticationMethod</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSOCMNiuW0gICRTZ5vUvFj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RSOCMNiuW0gICRTZ5vUvFj">
+        <rdfs:label xml:lang="en">operates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZFcFlGo3k2qRCBjoxHHKo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RZFcFlGo3k2qRCBjoxHHKo">
+        <rdfs:label xml:lang="en">requires</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaP9VA9uJFe7I463mzeh2M -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RaP9VA9uJFe7I463mzeh2M">
+        <rdfs:label xml:lang="en">isCooledBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rh8Uu19QZH2ZygR0LLU4HS -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rh8Uu19QZH2ZygR0LLU4HS">
+        <rdfs:label xml:lang="en">isStartedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC">
+        <rdfs:label xml:lang="en">isInsertedInto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnlYu8gPYhbWvUHhKxBZxr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RnlYu8gPYhbWvUHhKxBZxr">
+        <rdfs:label xml:lang="en">generatesLog</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp3cJ0mOqBJkUo40ArNpdt -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rp3cJ0mOqBJkUo40ArNpdt">
+        <rdfs:label xml:lang="en">definesRightsFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpYNCEpCuYgb5zJqBgXjTw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RpYNCEpCuYgb5zJqBgXjTw">
+        <rdfs:label xml:lang="en">isSecuredBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsJEXe25OAqAhFD4Wnu1nI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RsJEXe25OAqAhFD4Wnu1nI">
+        <rdfs:label xml:lang="en">isPartOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rsv7FfJTsqChoIftD9ZDEl -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rsv7FfJTsqChoIftD9ZDEl">
+        <rdfs:label xml:lang="en">hasConnectionType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyqnCOzCewugmYummGrubK -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RyqnCOzCewugmYummGrubK">
+        <rdfs:label xml:lang="en">includesDriver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QBqANOT829aC4KSWSJlgE -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7QBqANOT829aC4KSWSJlgE">
+        <rdfs:label xml:lang="en">hasWattage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TX8cLMOStDnlxM1JEER4r -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7TX8cLMOStDnlxM1JEER4r">
+        <rdfs:label xml:lang="en">hasInterface</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7V8RxmLXajqrgaU21KOD3d -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7V8RxmLXajqrgaU21KOD3d">
+        <rdfs:label xml:lang="en">hasFrequency</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fDHnrW4VNHuzz2Qy0QrL5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7fDHnrW4VNHuzz2Qy0QrL5">
+        <rdfs:label xml:lang="en">wasCreatedOn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hacVgGcskF8Bo7q4x2qTy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7hacVgGcskF8Bo7q4x2qTy">
+        <rdfs:label xml:lang="en">hasStartupType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7lemHtQF4wzUkTHgac8ClP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7lemHtQF4wzUkTHgac8ClP">
+        <rdfs:label xml:lang="en">hasExpiration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87HrURmRtDPpdy3OOS4tbC -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R87HrURmRtDPpdy3OOS4tbC">
+        <rdfs:label xml:lang="en">hasTimestamp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EQXVYT5E4OGIMVAdMNJ1y -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8EQXVYT5E4OGIMVAdMNJ1y">
+        <rdfs:label xml:lang="en">hasHashValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8F2shYeUer0JDUzfZgfmoK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8F2shYeUer0JDUzfZgfmoK">
+        <rdfs:label xml:lang="en">isCompliantWith</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8FV31pUFhTV9dJrxW0HhlP -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8FV31pUFhTV9dJrxW0HhlP">
+        <rdfs:label xml:lang="en">hasParameter</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SJE2SJtCYhqJrmmSw3nas -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8SJE2SJtCYhqJrmmSw3nas">
+        <rdfs:label xml:lang="en">hasAccessLevel</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dfZumzrUDNiUk94RzkkVr -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8dfZumzrUDNiUk94RzkkVr">
+        <rdfs:label xml:lang="en">hasType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gZXGSye0JNDlvMolwwVIK -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8gZXGSye0JNDlvMolwwVIK">
+        <rdfs:label xml:lang="en">hasRestrictions</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lRo9OeP036puEaKKuSkpU -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8lRo9OeP036puEaKKuSkpU">
+        <rdfs:label xml:lang="en">isGeneratedBy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8mUoiRNwaMOFOa78TQOjHc -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8mUoiRNwaMOFOa78TQOjHc">
+        <rdfs:label xml:lang="en">hasMemory</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95M8yfQU1JbBIFqphhYlhA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R95M8yfQU1JbBIFqphhYlhA">
+        <rdfs:label xml:lang="en">hasInterfaceType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DoIkaKX9IKgovDEiJliTH -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9DoIkaKX9IKgovDEiJliTH">
+        <rdfs:label xml:lang="en">hasCredentialType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9L1yJYl6lFegC9Y7lhpipS -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9L1yJYl6lFegC9Y7lhpipS">
+        <rdfs:label xml:lang="en">createdOn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ohk4UGDe8VjW9wMNiEYuR -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9Ohk4UGDe8VjW9wMNiEYuR">
+        <rdfs:label xml:lang="en">appliesToVersion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ahLSCrJ6MLG9RFjShbgzs -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9ahLSCrJ6MLG9RFjShbgzs">
+        <rdfs:label xml:lang="en">hasClockSpeed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eObonvfu2Eu4uOFhHq45q -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9eObonvfu2Eu4uOFhHq45q">
+        <rdfs:label xml:lang="en">usesSecondaryCredential</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9karn7V6N7oANIBGsZUkGq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9karn7V6N7oANIBGsZUkGq">
+        <rdfs:label xml:lang="en">hasReadSpeed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9saH3bBW2SPch4iF36Yz8Z -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9saH3bBW2SPch4iF36Yz8Z">
+        <rdfs:label xml:lang="en">hasFormat</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vyELr3YMGVlbh5H6KT9uV -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9vyELr3YMGVlbh5H6KT9uV">
+        <rdfs:label xml:lang="en">hasStartTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9x8vDVWXqyOJ8Y9qg1piEh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9x8vDVWXqyOJ8Y9qg1piEh">
+        <rdfs:label xml:lang="en">hasFunction</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAyjZaSR76QO5KZIZeHklL -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBAyjZaSR76QO5KZIZeHklL">
+        <rdfs:label xml:lang="en">hasRole</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGT7jM9m7veGxAfIBcekjA -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBGT7jM9m7veGxAfIBcekjA">
+        <rdfs:label xml:lang="en">hasEndTime</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLMZG7UIvM5mmCyf0U6sDy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBLMZG7UIvM5mmCyf0U6sDy">
+        <rdfs:label xml:lang="en">isReportedBy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBNIvoTjYRzjuvgpnB0kKIb -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBNIvoTjYRzjuvgpnB0kKIb">
+        <rdfs:label xml:lang="en">hasVerificationMethod</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYUk7TjPxN3klFgTHqWFhl -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBYUk7TjPxN3klFgTHqWFhl">
+        <rdfs:label xml:lang="en">bootsWith</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBeS8oRl2ub1jkj0v56xeaw -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBeS8oRl2ub1jkj0v56xeaw">
+        <rdfs:label xml:lang="en">wasLastChangedOn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8Drtw1W5CIK2yTKSkxBb4 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC8Drtw1W5CIK2yTKSkxBb4">
+        <rdfs:label xml:lang="en">hasReleaseDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCIj3xxhnyyklwxaMqNu5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCCIj3xxhnyyklwxaMqNu5">
+        <rdfs:label xml:lang="en">hasCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCecHijxz4pWMYguOCIrMZz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCecHijxz4pWMYguOCIrMZz">
+        <rdfs:label xml:lang="en">hasInputType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnSSQeI0gcXtObYelbUn7E -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCnSSQeI0gcXtObYelbUn7E">
+        <rdfs:label xml:lang="en">monitors</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpQ4GJ3frXZOdAom8DLR4v -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCpQ4GJ3frXZOdAom8DLR4v">
+        <rdfs:label xml:lang="en">isSecuredBy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqPkZIkjx0s5SBzuzVrba9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCqPkZIkjx0s5SBzuzVrba9">
+        <rdfs:label xml:lang="en">hasPortAssignment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKzWLpEfhlDlK7N61PKhr9 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDKzWLpEfhlDlK7N61PKhr9">
+        <rdfs:label xml:lang="en">hasCoreCount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMvPEW39RSiCD9TTkyPJJ5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDMvPEW39RSiCD9TTkyPJJ5">
+        <rdfs:label xml:lang="en">hasArchitecture</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPXwB5y9OBkBRM9oy2ZzsJ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDPXwB5y9OBkBRM9oy2ZzsJ">
+        <rdfs:label xml:lang="en">lastLogin</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDY0gNurmhl74auIlri4Rwf -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDY0gNurmhl74auIlri4Rwf">
+        <rdfs:label xml:lang="en">hasStatus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcsuHTXazi78A0deSVHgjX -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDcsuHTXazi78A0deSVHgjX">
+        <rdfs:label xml:lang="en">hasBiometricType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdK5fG3xRpCNSOQbiQVFm5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDdK5fG3xRpCNSOQbiQVFm5">
+        <rdfs:label xml:lang="en">wasRegisteredOn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMcjUKERuThEURWzcCITWj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RMcjUKERuThEURWzcCITWj">
+        <rdfs:label xml:lang="en">hasThreatDatabase</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSrNLgOnfMBSV9wGp8uesq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RSrNLgOnfMBSV9wGp8uesq">
+        <rdfs:label xml:lang="en">monitorsTrafficWith</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUx81Ul527ebQ4pVbQFtQQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RUx81Ul527ebQ4pVbQFtQQ">
+        <rdfs:label xml:lang="en">usesProtocol</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVGrAbAuQpZaJrBkbopSni -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RVGrAbAuQpZaJrBkbopSni">
+        <rdfs:label xml:lang="en">hasStorageCapacity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rc0QdCPWGr6glG98OD1MSh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rc0QdCPWGr6glG98OD1MSh">
+        <rdfs:label xml:lang="en">hasStorageType</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcbGrJJb310cCu4Xh2lrUD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RcbGrJJb310cCu4Xh2lrUD">
+        <rdfs:label xml:lang="en">hasIPAddress</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rg62wucNj7rQgw7ShHSV2j -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rg62wucNj7rQgw7ShHSV2j">
+        <rdfs:label xml:lang="en">hasCredentials</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhuIllac0nUdi9Y0JfzjRg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RhuIllac0nUdi9Y0JfzjRg">
+        <rdfs:label xml:lang="en">isSupportedBy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rjxslcm3IwO7G81fZGboMF -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rjxslcm3IwO7G81fZGboMF">
+        <rdfs:label xml:lang="en">hasWriteSpeed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlTxdegLklDbu8yDSh0o0i -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RlTxdegLklDbu8yDSh0o0i">
+        <rdfs:label xml:lang="en">isStoredIn</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ro2DI6eL4U8mUtiDEUhWN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Ro2DI6eL4U8mUtiDEUhWN">
+        <rdfs:label xml:lang="en">usesPrimaryCredential</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM">
+        <rdfs:label xml:lang="en">hasVersion</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqaKu7cghednZgQQ7evwoa -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RqaKu7cghednZgQQ7evwoa">
+        <rdfs:label xml:lang="en">hasErrorCode</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrwISq7sQYTiJGWpk7GtdB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RrwISq7sQYTiJGWpk7GtdB">
+        <rdfs:label xml:lang="en">hasEntry</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rt5HxsySTV4AZoipCyGazm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rt5HxsySTV4AZoipCyGazm">
+        <rdfs:label xml:lang="en">hasEfficiencyRating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxSvs7KnQrNEUW8zuZWzAd -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RxSvs7KnQrNEUW8zuZWzAd">
+        <rdfs:label xml:lang="en">hasDescription</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rz9GPJ9yxW4It9zdzxZ6uS -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rz9GPJ9yxW4It9zdzxZ6uS">
+        <rdfs:label xml:lang="en">measures</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1md2MW3w1ttS1haqTkpQa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1md2MW3w1ttS1haqTkpQa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7dImUP7xKWhDnQMSBMFWWj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8i7LmgO4OfgoWVIAQd4Bqc"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBGugabrLhgi2ViQF4XbQUP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RFwb4MWbzyhHXzrrmDRHam"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">common firmware system used to initialize hardware when a computer boots</dc:description>
+        <dc:description xml:lang="pt-br">firmware</dc:description>
+        <rdfs:label xml:lang="en">BIOS</rdfs:label>
+        <rdfs:label xml:lang="pt-br">BIOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R33R167edJKWrEgC5VW9Nf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R33R167edJKWrEgC5VW9Nf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RZWXtNFdPqLxLE8NHYYNtc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RChyD2UPDCIZB4j5o3y81em"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ahLSCrJ6MLG9RFjShbgzs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDKzWLpEfhlDlK7N61PKhr9"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">hardware dentro de um computador que executa instruções de um programa realizando operações aritméticas, lógicas e de entrada/saída</dc:description>
+        <dc:description xml:lang="en">hardware within a computer that carries out the instructions of a computer program by performing the basic arithmetical, logical, and input/output operations of the system</dc:description>
+        <rdfs:label xml:lang="en">CPU (central processing unit)</rdfs:label>
+        <rdfs:label xml:lang="pt-br">unidade central de processamento (CPU)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RnlYu8gPYhbWvUHhKxBZxr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBzC7IzUF7cQh5yBlUdjlqN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RsJEXe25OAqAhFD4Wnu1nI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7hacVgGcskF8Bo7q4x2qTy"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StartupType</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCnSSQeI0gcXtObYelbUn7E"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Resource</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Background software component that provides functionality or support to the computer system or its users</dc:description>
+        <dc:description xml:lang="pt-br">Componente de software em segundo plano que fornece funcionalidades ou suporte ao sistema computacional ou aos seus usuários</dc:description>
+        <rdfs:label xml:lang="en">Service</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Serviço</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7A7Z9SUi0E49TB64EAOJQo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7A7Z9SUi0E49TB64EAOJQo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w9gCzIufdaO85lAqGV3Sj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UP4ItnI4qrJLN6m341g9J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBJXSKVjDlLOKHLmabKdct7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RkYJSW2uI7PaIXzhZtmGwC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">programa informático ou grupo de programas para realização de uma tarefa no computador</dc:description>
+        <dc:description xml:lang="en">software program or group of programs designed for end-users</dc:description>
+        <rdfs:label xml:lang="en">Application</rdfs:label>
+        <rdfs:label xml:lang="pt-br">aplicação</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8kN5tni4PfBowIVcmrVmcX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9sZcJRlVaseCfaXTcbNRDU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZCQtc6MAZWZnbQkiSJQ4j"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9x8vDVWXqyOJ8Y9qg1piEh"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">dispositivo de hardware que se conecta a um computador e fornece facilidades de entrada, saída, armazenamento ou comunicação</dc:description>
+        <dc:description xml:lang="en">hardware device which attaches to a computer and provides input, output, storage or communication facilities</dc:description>
+        <rdfs:label xml:lang="pt-br">Periférico</rdfs:label>
+        <rdfs:label xml:lang="en">Peripheral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC5WkShBIl1dowZBJ1lX4mQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8bU3sf5sjSn3qn2hwDeI29"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7TX8cLMOStDnlxM1JEER4r"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NetworkInterface</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RSrNLgOnfMBSV9wGp8uesq"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonitoringTool</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RUx81Ul527ebQ4pVbQFtQQ"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NetworkProtocol</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RcbGrJJb310cCu4Xh2lrUD"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPConfiguration</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">sistema de objetos conectados entre si para trocar algo (como objetos, materiais ou informações)</dc:description>
+        <dc:description xml:lang="en">system of objects that are connected together to exchange something (e.g. objects, materials or information)</dc:description>
+        <rdfs:label xml:lang="en">Networking</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Rede / Conectividade de Rede</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7dImUP7xKWhDnQMSBMFWWj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9DcaiGl9WXPjm0Y0hBDISV"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RFwb4MWbzyhHXzrrmDRHam"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">computer software that provides the low-level control for a device&apos;s specific hardware</dc:description>
+        <dc:description xml:lang="pt-br">conjunto de instruções operacionais programadas diretamente no hardware</dc:description>
+        <rdfs:label xml:lang="en">Firmware</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Firmware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pdxPxTckZn20RpBPO5Fq3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pdxPxTckZn20RpBPO5Fq3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9karn7V6N7oANIBGsZUkGq"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RVGrAbAuQpZaJrBkbopSni"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rjxslcm3IwO7G81fZGboMF"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rc0QdCPWGr6glG98OD1MSh"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StorageType</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">armazenamento de dados digitais legíveis por computadores</dc:description>
+        <dc:description xml:lang="en">storage of digital data readable by computers</dc:description>
+        <rdfs:label xml:lang="pt-br">Armazenamento</rdfs:label>
+        <rdfs:label xml:lang="en">Storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R77kjmk5AIFZh0cZjwCJ0GN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7VQWQ2RwrUu7qjEtHgBu5r"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBS84H4agNzcWbDieurR5VQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCRrSabfCRnefXYM8hkkq6Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">computer program that operates or controls a particular type of device</dc:description>
+        <dc:description xml:lang="pt-br">programa de computador que opera ou controla um tipo específico de dispositivo</dc:description>
+        <rdfs:label xml:lang="en">device driver</rdfs:label>
+        <rdfs:label xml:lang="pt-br">driver de dispositivo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NMpHeMB0L52rqJ56vOAQC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8NMpHeMB0L52rqJ56vOAQC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Jwk9ZlDQCDljly7Savb3J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7QBqANOT829aC4KSWSJlgE"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rt5HxsySTV4AZoipCyGazm"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EfficiencyRating</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">componente interno de computador que fornece energia para outros componentes</dc:description>
+        <dc:description xml:lang="en">internal computer component that provides power to other components</dc:description>
+        <rdfs:label xml:lang="pt-br">fonte de alimentação</rdfs:label>
+        <rdfs:label xml:lang="en">power supply unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RMReEjPCZKOVtWGK4ywr2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RMReEjPCZKOVtWGK4ywr2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7A4aPV6MLqirBTUsx8JW28"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">A liquid cooler, often referred to as a &quot;water cooler,&quot; is a cooling system that uses a liquid (typically a mixture of distilled water and additives) to dissipate heat from electronic components, such as central processing units (CPUs) and graphics processing units (GPUs) in computers. The liquid absorbs heat from the component, is pumped to a radiator where the heat is transferred to the air, and then the cooled liquid returns to the component. It generally offers superior cooling performance compared to air-based solutions.</dc:description>
+        <dc:description xml:lang="pt-br">Um resfriador líquido, frequentemente chamado de &quot;water cooler&quot;, é um sistema de arrefecimento que utiliza um líquido (geralmente uma mistura de água destilada e aditivos) para dissipar o calor de componentes eletrônicos, como processadores (CPUs) e placas de vídeo (GPUs) em computadores. O líquido absorve o calor do componente, é bombeado para um radiador onde o calor é transferido para o ar, e então o líquido resfriado retorna ao componente. Oferece um desempenho de resfriamento superior em comparação com soluções a ar.</dc:description>
+        <rdfs:label xml:lang="en">LiquidCooler</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Resfriador Líquido</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UEv0b3vIvifHUSYtPvyuj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UEv0b3vIvifHUSYtPvyuj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7M4aTtvU1hxizQppc9fnlS"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7M4aTtvU1hxizQppc9fnlS"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7M4aTtvU1hxizQppc9fnlS"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8FV31pUFhTV9dJrxW0HhlP"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ConfigParameter</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9saH3bBW2SPch4iF36Yz8Z"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FileFormat</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RlTxdegLklDbu8yDSh0o0i"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FileSystem</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">arquivo de software usado para configurar as definições iniciais de um programa de computador</dc:description>
+        <dc:description xml:lang="en">software file used to configure the initial settings for a computer program</dc:description>
+        <rdfs:label xml:lang="pt-br">Arquivo de Configuração</rdfs:label>
+        <rdfs:label xml:lang="en">ConfigurationFile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bU3sf5sjSn3qn2hwDeI29 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bU3sf5sjSn3qn2hwDeI29">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCo0GEq16Wz9FzqmtwqjmRN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8F2shYeUer0JDUzfZgfmoK"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standard</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCpQ4GJ3frXZOdAom8DLR4v"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SecurityProtocol</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCqPkZIkjx0s5SBzuzVrba9"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PortNumber</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">conjunto de regras que definem como dados são transmitidos em uma rede</dc:description>
+        <dc:description xml:lang="en">rules that define how data is transmitted in a network</dc:description>
+        <rdfs:label xml:lang="en">Network protocols</rdfs:label>
+        <rdfs:label xml:lang="pt-br">protocolo de comunicação</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkcKNDgtVO6WoXjGS9khcH"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R94YiLYMKSk5J7ih1iNMQL4"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RD0wbpG4DozUhAAIeTu7txL"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9DoIkaKX9IKgovDEiJliTH"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Credential</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">act of confirming the truth of an attribute of a datum or entity</dc:description>
+        <dc:description xml:lang="pt-br">ato de confirmar a veracidade de um atributo de um dado ou entidade</dc:description>
+        <rdfs:label xml:lang="pt-br">autenticação</rdfs:label>
+        <rdfs:label xml:lang="en">authentication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8r9McrPfuaJOZoMDCucxzU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8r9McrPfuaJOZoMDCucxzU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7dImUP7xKWhDnQMSBMFWWj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8i7LmgO4OfgoWVIAQd4Bqc"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBGugabrLhgi2ViQF4XbQUP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RFwb4MWbzyhHXzrrmDRHam"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">especificação que define uma interface de software entre um sistema operativo e o firmware da plataforma</dc:description>
+        <dc:description xml:lang="en">specification that defines a software interface between an operating system and platform firmware</dc:description>
+        <rdfs:label xml:lang="pt">Interface de Firmware Extensível Unificada</rdfs:label>
+        <rdfs:label xml:lang="en">Unified Extensible Firmware Interface (UEFI)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ttPLCAACbp5MT21S4cCFa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ttPLCAACbp5MT21S4cCFa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RClLRX3h6vAZbDC5zE5HrE2"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVujiK9IxAD4WrK0SiWN1Q"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9eObonvfu2Eu4uOFhHq45q"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Credential</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBNIvoTjYRzjuvgpnB0kKIb"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VerificationChannel</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Ro2DI6eL4U8mUtiDEUhWN"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Credential</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">authentication method in which a computer user is granted access only after successfully presenting two pieces of evidence (or factors) to an authentication mechanism</dc:description>
+        <dc:description xml:lang="pt-br">método de autenticação em que um usuário de computador obtém acesso apenas após apresentar com sucesso duas evidências (ou fatores) para o mecanismo de autenticação</dc:description>
+        <rdfs:label xml:lang="pt-br">autenticação de dois fatores</rdfs:label>
+        <rdfs:label xml:lang="en">two-factor authentication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8fMu6mZKIT2j3LtPkNwbw0"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8fMu6mZKIT2j3LtPkNwbw0"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R87HrURmRtDPpdy3OOS4tbC"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBLMZG7UIvM5mmCyf0U6sDy"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonitoringTool</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rz9GPJ9yxW4It9zdzxZ6uS"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UsageMetric</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">conjunto de parâmetros ou definições aplicados a um software ou sistema para controlar seu comportamento</dc:description>
+        <dc:description xml:lang="en">set of parameters or settings applied to software or system to control behavior</dc:description>
+        <rdfs:label xml:lang="en">configuração</rdfs:label>
+        <rdfs:label xml:lang="pt-br">configuração</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9at2VNMT1TNvYUxlm4uZR9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9at2VNMT1TNvYUxlm4uZR9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7b6XHSDWUU4e0EPewaCeIt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDngXEqb2P5Pkvx4Jvn5OZd"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7fDHnrW4VNHuzz2Qy0QrL5"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBeS8oRl2ub1jkj0v56xeaw"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8EQXVYT5E4OGIMVAdMNJ1y"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">código secreto usado para autenticação</dc:description>
+        <dc:description xml:lang="en">secret passcode used for authentication</dc:description>
+        <rdfs:label xml:lang="en">Password</rdfs:label>
+        <rdfs:label xml:lang="pt-br">palavra-passe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9sZcJRlVaseCfaXTcbNRDU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9sZcJRlVaseCfaXTcbNRDU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RhuIllac0nUdi9Y0JfzjRg"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Device</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">A computer network is a set of computers sharing resources located on or provided by network nodes. … interconnections are made up of … wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.</dc:description>
+        <dc:description xml:lang="pt-br">Rede de computadores é um conjunto de computadores que compartilham recursos localizados em nós de rede. … interconexões são feitas por meios com fio, óptico ou sem fio (RF), organizados em várias topologias de rede.</dc:description>
+        <rdfs:label xml:lang="en">Computer network</rdfs:label>
+        <rdfs:label xml:lang="pt-br">conexão de rede</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wCCGbSsutrLBcyi80AMyJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wCCGbSsutrLBcyi80AMyJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8kN5tni4PfBowIVcmrVmcX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9sZcJRlVaseCfaXTcbNRDU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCxeH4YBXp6i06bD7HoXMPU"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8bU3sf5sjSn3qn2hwDeI29"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">componente de hardware de computador que conecta um computador a uma rede de computadores</dc:description>
+        <dc:description xml:lang="en">computer hardware component that connects a computer to a computer network</dc:description>
+        <rdfs:label xml:lang="en">NetworkCard</rdfs:label>
+        <rdfs:label xml:lang="pt-br">placa de rede</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1JzICSK1id7bKwMUaAEMI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB1JzICSK1id7bKwMUaAEMI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7A4aPV6MLqirBTUsx8JW28"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">An air cooler, also known as an evaporative cooler, is a device that lowers air temperature through the evaporation of water. It draws in hot air, passes it over a wet pad where water evaporates and absorbs heat, then releases cooler, more humid air into the room. It differs from an air conditioner as it doesn&apos;t use refrigerants and is more effective in dry climates.</dc:description>
+        <dc:description xml:lang="pt-br">Um resfriador a ar, também conhecido como climatizador evaporativo, é um aparelho que utiliza a evaporação da água para reduzir a temperatura do ar. Ele puxa o ar quente, faz com que ele passe por um painel úmido, onde a água evapora e absorve o calor, liberando ar mais fresco e úmido no ambiente. É diferente de um ar condicionado, pois não usa refrigerante e é mais eficiente em climas secos.</dc:description>
+        <rdfs:label xml:lang="en">AirCooler</rdfs:label>
+        <rdfs:label xml:lang="pt-br">AirCooler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGugabrLhgi2ViQF4XbQUP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBGugabrLhgi2ViQF4XbQUP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8LQnJPdxWfwjainJCABXV9"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1md2MW3w1ttS1haqTkpQa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8i7LmgO4OfgoWVIAQd4Bqc"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCmBFTB2Qg7u6qTyLPtp8Z1"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDvg6WrGlGnbHYebfm4d2zi"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">sequence of steps a computer performs when powered on or restarted</dc:description>
+        <dc:description xml:lang="pt-br">sequência de etapas que um computador executa ao ligar para carregar um sistema operacional</dc:description>
+        <rdfs:label xml:lang="en">boot sequence</rdfs:label>
+        <rdfs:label xml:lang="pt-br">sequência de inicialização</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7A4aPV6MLqirBTUsx8JW28"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">A CoolingSystem (Sistema de Resfriamento) é o componente de hardware responsável por controlar a temperatura dos componentes internos, especialmente CPU e GPU, evitando superaquecimento.</dc:description>
+        <dc:description xml:lang="en">The cooling system is responsible for removing excess heat generated by a vehicle&apos;s engine, maintaining it at an optimal operating temperature to prevent overheating and ensure proper functioning.</dc:description>
+        <rdfs:label xml:lang="en">CoolingSystem</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Sistema de Arrefecimento</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8GtvLMxkadkmxuqPEXkdN7"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBRfxzzNTBRwZ9AquifOHd8"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBzC7IzUF7cQh5yBlUdjlqN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBzj6nreOmDlgiN0ymC6GIM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCZCQtc6MAZWZnbQkiSJQ4j"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDb908g3WhvAAqYPhek1wGB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RpYNCEpCuYgb5zJqBgXjTw"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDglTyN5zxh1nWCX2B1fOf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBYUk7TjPxN3klFgTHqWFhl"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BootSequence</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">dispositivo simples de uso geral para executar operações aritméticas ou lógicas</dc:description>
+        <dc:description xml:lang="en">general-purpose device for performing arithmetic or logical operations</dc:description>
+        <rdfs:label xml:lang="en">Computer</rdfs:label>
+        <rdfs:label xml:lang="pt-br">computador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzC7IzUF7cQh5yBlUdjlqN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzC7IzUF7cQh5yBlUdjlqN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9Qj39HltzP3GQafJqvPLoc"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RvIT2K3x91SZw9MXbraeE1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCshnNZsmCapAysMkIrYKj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCshnNZsmCapAysMkIrYKj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBCshnNZsmCapAysMkIrYKj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R87HrURmRtDPpdy3OOS4tbC"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dateTime</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8lRo9OeP036puEaKKuSkpU"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonitoringTool</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RlTxdegLklDbu8yDSh0o0i"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FileSystem</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RrwISq7sQYTiJGWpk7GtdB"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LogEntry</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">chronological record of events a computer system generates, including errors, warnings, info</dc:description>
+        <dc:description xml:lang="pt-br">registro cronológico de eventos gerados por um sistema, incluindo erros, avisos e informações operacionais</dc:description>
+        <rdfs:label xml:lang="en">SystemLog</rdfs:label>
+        <rdfs:label xml:lang="pt-br">log do sistema</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCNxChMEconc9XClYY5eMPf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCNxChMEconc9XClYY5eMPf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RZWXtNFdPqLxLE8NHYYNtc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RChyD2UPDCIZB4j5o3y81em"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ahLSCrJ6MLG9RFjShbgzs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDKzWLpEfhlDlK7N61PKhr9"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8mUoiRNwaMOFOa78TQOjHc"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memory</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">circuito eletrônico especializado; acelerador gráfico</dc:description>
+        <dc:description xml:lang="en">specialized electronic circuit; graphics accelerator</dc:description>
+        <rdfs:label xml:lang="en">GPU (Graphics Processing Unit)</rdfs:label>
+        <rdfs:label xml:lang="pt-br">GPU (Processador Gráfico)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDimWgli0INlckdHLamxOdy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDimWgli0INlckdHLamxOdy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDimWgli0INlckdHLamxOdy"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">Uma fabricante é uma empresa ou entidade que produz bens ou produtos, geralmente em grande escala, utilizando matérias-primas, componentes e processos de montagem. O termo &quot;fabricante&quot; abrange uma vasta gama de indústrias, desde a eletrônica e automotiva até a têxtil e alimentícia, sendo essencial para a criação e distribuição de produtos no mercado.</dc:description>
+        <dc:description xml:lang="en">individual or organization that creates goods</dc:description>
+        <rdfs:label xml:lang="pt-br">Fabricante</rdfs:label>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R73GI6vzR2NuHwlzLkTlZis"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9L1yJYl6lFegC9Y7lhpipS"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDPXwB5y9OBkBRM9oy2ZzsJ"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8SJE2SJtCYhqJrmmSw3nas"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AccessLevel</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rg62wucNj7rQgw7ShHSV2j"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Credential</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">Digital identity assigned to a user that allows access to a computer system or software, often protected by authentication methods.</dc:description>
+        <dc:description xml:lang="pt-br">Identidade digital atribuída a um usuário que permite o acesso a um sistema computacional ou software, geralmente protegida por métodos de autenticação.</dc:description>
+        <rdfs:label xml:lang="pt-br">Conta de Usuário</rdfs:label>
+        <rdfs:label xml:lang="en">UserAccount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkWSsSmhk9bTQ6KOjzGugJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkWSsSmhk9bTQ6KOjzGugJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7b6XHSDWUU4e0EPewaCeIt"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCgunGquoZZiRTgYp0YF1LN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCseblBuEPBPxORCX7Vgu2J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDngXEqb2P5Pkvx4Jvn5OZd"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8EQXVYT5E4OGIMVAdMNJ1y"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBeS8oRl2ub1jkj0v56xeaw"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7fDHnrW4VNHuzz2Qy0QrL5"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dateTime</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">computer memory device which is not permanently installed in a computer</dc:description>
+        <dc:description xml:lang="pt-br">dispositivo de memória de computador que não está instalado permanentemente nele</dc:description>
+        <rdfs:label xml:lang="pt-br">Armazenamento Externo</rdfs:label>
+        <rdfs:label xml:lang="en">external storage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD1hKANLui3rs9wY2L0T3yN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD1hKANLui3rs9wY2L0T3yN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">periférico que fornece informações de um computador para uma ou mais pessoas</dc:description>
+        <dc:description xml:lang="en">peripheral which delivers information from a computer to one or more people</dc:description>
+        <rdfs:label xml:lang="pt-br">Dispositivo de Saída</rdfs:label>
+        <rdfs:label xml:lang="en">output device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R33R167edJKWrEgC5VW9Nf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7pdxPxTckZn20RpBPO5Fq3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8NMpHeMB0L52rqJ56vOAQC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RYmiiCJVnGhRkVXbRDEGtD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCPBuduFhWL905NW6jdXn3n"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDl2GuCOvcactf6KPlomSau"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RsJEXe25OAqAhFD4Wnu1nI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rsv7FfJTsqChoIftD9ZDEl"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9sZcJRlVaseCfaXTcbNRDU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">O hardware é um termo técnico (anglicismo) que se refere à parte física de computadores e outros sistemas microeletrônicos. Engloba CPU, memória, periféricos, barramentos…</dc:description>
+        <dc:description xml:lang="en">The physical components of a computer system, such as the processor, memory, and storage.</dc:description>
+        <rdfs:label xml:lang="en">Hardware</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Hardware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDglTyN5zxh1nWCX2B1fOf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDglTyN5zxh1nWCX2B1fOf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RkcKNDgtVO6WoXjGS9khcH"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7jQ9jnMJPL0oaMAuc4cZcF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZVbaRIPm4VqVr6SqOr9aL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7jQ9jnMJPL0oaMAuc4cZcF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7jQ9jnMJPL0oaMAuc4cZcF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8u680oQsG9F2CkUedNAgHb"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RkYJSW2uI7PaIXzhZtmGwC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDoUQKa2Is81etZH3CTOWBv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCnSSQeI0gcXtObYelbUn7E"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RMcjUKERuThEURWzcCITWj"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ThreatDatabase</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">any computer software designed to enhance or safeguard information or system security</dc:description>
+        <dc:description xml:lang="pt-br">software projetado para aprimorar ou proteger sistemas</dc:description>
+        <rdfs:label xml:lang="en">computer security software</rdfs:label>
+        <rdfs:label xml:lang="pt-br">software de segurança de computador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w9gCzIufdaO85lAqGV3Sj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UP4ItnI4qrJLN6m341g9J"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8u680oQsG9F2CkUedNAgHb"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RkYJSW2uI7PaIXzhZtmGwC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBKX0WhZV42QkR9NtqJrHjI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC55cSpBkQ7e7h00et3k3FA"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCLX8O2iNiH7EEhDOyJZD0F"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">conjunto de programas de computador e documentação e dados associados</dc:description>
+        <dc:description xml:lang="en">set of computer programs and associated documentation and data</dc:description>
+        <rdfs:label xml:lang="en">Software</rdfs:label>
+        <rdfs:label xml:lang="pt-br">software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrsvz5LrGSx6zyaEFHWgOR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrsvz5LrGSx6zyaEFHWgOR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7IB9Q2AWiqib8aNsLONFR2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9p61kFpfPzlJpz6K8yeRmd"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCxjj6cGg2D46JRJPfSwDrs"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDCHryYz4imkUt16yfKN2DB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R95M8yfQU1JbBIFqphhYlhA"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interface</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCecHijxz4pWMYguOCIrMZz"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">periférico que fornece dados e sinais para um sistema de processamento de informação</dc:description>
+        <dc:description xml:lang="en">peripheral to provide data and signals to an information processing system</dc:description>
+        <rdfs:label xml:lang="pt-br">dispositivo de entrada</rdfs:label>
+        <rdfs:label xml:lang="en">input device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7VQWQ2RwrUu7qjEtHgBu5r"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCsAXN6ZKKLvmkBY0F1B4kI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/REfAiDIOynIsI3bp2O9Wap"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9Ohk4UGDe8VjW9wMNiEYuR"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RC8Drtw1W5CIK2yTKSkxBb4"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">ferramenta que automatiza instalação, atualização e remoção de pacotes de software</dc:description>
+        <dc:description xml:lang="en">tool that automates installation, updates, and removal of software packages</dc:description>
+        <rdfs:label xml:lang="pt-br">gerenciador de pacotes</rdfs:label>
+        <rdfs:label xml:lang="en">package manager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYmiiCJVnGhRkVXbRDEGtD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYmiiCJVnGhRkVXbRDEGtD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7V8RxmLXajqrgaU21KOD3d"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCCIj3xxhnyyklwxaMqNu5"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">form of computer data storage</dc:description>
+        <dc:description xml:lang="pt-br">forma de armazenamento de dados em computador acessível de forma aleatória (idem descrição em inglês, adaptada).</dc:description>
+        <rdfs:label xml:lang="pt-br">RAM (memória de acesso aleatório)</rdfs:label>
+        <rdfs:label xml:lang="en">RAM (random-access memory)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZWXtNFdPqLxLE8NHYYNtc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZWXtNFdPqLxLE8NHYYNtc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RChyD2UPDCIZB4j5o3y81em"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9ahLSCrJ6MLG9RFjShbgzs"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDKzWLpEfhlDlK7N61PKhr9"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">componente elétrico para processamento de dados; unidade de processamento; circuito eletrônico de processamento de computador</dc:description>
+        <dc:description xml:lang="en">electrical component for processing data; unit of processing; electronic processing unit; computer processor</dc:description>
+        <rdfs:label xml:lang="en">Processor</rdfs:label>
+        <rdfs:label xml:lang="pt-br">processador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZaHRtJERJtwRwQG1y69vs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZaHRtJERJtwRwQG1y69vs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDP4S5cuMEsJXn4Nf4X5IVN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDngXEqb2P5Pkvx4Jvn5OZd"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8nWG96bUtXBvqmjd06Zadx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDcsuHTXazi78A0deSVHgjX"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDdK5fG3xRpCNSOQbiQVFm5"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">metrics related to an individual&apos;s characteristics</dc:description>
+        <dc:description xml:lang="pt-br">métricas relacionadas a características humanas</dc:description>
+        <rdfs:label xml:lang="pt-br">biometria</rdfs:label>
+        <rdfs:label xml:lang="en">biometric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8YnIAzelLW4YjZspIOdTs2"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZivzJ59EBnohjMrjkjVlF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCSbAHhaUuHa5suGQ0uOWI2"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R33R167edJKWrEgC5VW9Nf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDUzKPs2EVSgolRRiSKFFIo"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">main printed circuit board (PCB) for a computing device</dc:description>
+        <dc:description xml:lang="pt-br">placa de circuito impresso principal (PCB) para um dispositivo de computação</dc:description>
+        <rdfs:label xml:lang="en">Motherboard</rdfs:label>
+        <rdfs:label xml:lang="pt-br">placa-mãe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReFFyWVFaSPSxaYpbdI3eR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReFFyWVFaSPSxaYpbdI3eR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7a9FXVWjSEJg9Z63QpVadU"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RYmiiCJVnGhRkVXbRDEGtD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RaP9VA9uJFe7I463mzeh2M"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBTvie5Twzg9qzVjrNpZM7P"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">expansion card which generates a feed of output images to a display</dc:description>
+        <dc:description xml:lang="pt-br">placa de expansão que gera um fluxo de imagens de saída para um monitor</dc:description>
+        <rdfs:label xml:lang="en">GraphicsCard</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Placa de vídeo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RelEZ43lBTrzhZPEjhTwOY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7487Yx5NO8LwIE3LTvNrxM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7A7Z9SUi0E49TB64EAOJQo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R95Vl3CjqVyEy7Rsh3xzgIX"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDCHryYz4imkUt16yfKN2DB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDbYErpAg9BiVsugelh8COv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RyqnCOzCewugmYummGrubK"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/Rp58lwlb0OtCYsPwASzSDM"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDMvPEW39RSiCD9TTkyPJJ5"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architecture</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">software que gerencia recursos de hardware de computador</dc:description>
+        <dc:description xml:lang="en">software that manages computer hardware resources</dc:description>
+        <rdfs:label xml:lang="en">OperatingSystem</rdfs:label>
+        <rdfs:label xml:lang="pt-br">sistema operacional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkYJSW2uI7PaIXzhZtmGwC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkYJSW2uI7PaIXzhZtmGwC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RB7VmG1OK4FsOBZ6KP5knaI"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCVDLb2Rs2jFzQfO8Ce6W2B"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7lemHtQF4wzUkTHgac8ClP"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8gZXGSye0JNDlvMolwwVIK"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8dfZumzrUDNiUk94RzkkVr"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LicenseType</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autorização legal que define as condições sob as quais um software pode ser utilizado, modificado ou redistribuído.</dc:description>
+        <dc:description xml:lang="en">Legal authorization that defines the conditions under which a software can be used, modified, or redistributed.</dc:description>
+        <rdfs:label xml:lang="pt-br">licença de software</rdfs:label>
+        <rdfs:label xml:lang="en">software license</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RkcKNDgtVO6WoXjGS9khcH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RkcKNDgtVO6WoXjGS9khcH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8GL3tycwxj8A6Z2l90he6z"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8ttPLCAACbp5MT21S4cCFa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8GL3tycwxj8A6Z2l90he6z"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9at2VNMT1TNvYUxlm4uZR9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8GL3tycwxj8A6Z2l90he6z"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RZaHRtJERJtwRwQG1y69vs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RPCG6LFWEhkwH2JSFJOWbr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8ttPLCAACbp5MT21S4cCFa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RPCG6LFWEhkwH2JSFJOWbr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9at2VNMT1TNvYUxlm4uZR9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RPCG6LFWEhkwH2JSFJOWbr"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RZaHRtJERJtwRwQG1y69vs"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">proteção de sistemas e redes de computadores contra roubo, dano, uso indevido ou vazamento de dados</dc:description>
+        <dc:description xml:lang="en">the protection of computer systems and networks from theft, damage, misuse or data leak</dc:description>
+        <rdfs:label xml:lang="en">computer security</rdfs:label>
+        <rdfs:label xml:lang="pt-br">segurança de computador / cibersegurança</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmSIkKWZF7Z0i04kRvLxer -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmSIkKWZF7Z0i04kRvLxer">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7Jwy7Ne9IyWI4qXQ74OgiS"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RD1hKANLui3rs9wY2L0T3yN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7w5WBO7s3mud9ncScipAci"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCZe02EBZwueUth6WHnS39"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R9oySzeMnEeYOReETAL9Qhj"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82xbONIaDnnpk65aCokOYv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBgE8ytdOarYj2wgm5W1Ner"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDrsvz5LrGSx6zyaEFHWgOR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBpcwPZsqpJkbhiedpMTUEf"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBmlmMs1UuhQOA1N1wpinlh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RjuA18cPGJ1ltS3IGFQOGC"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rd9RODgG8YLtTebZCXgNs5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="en">expansion card that provides input and output of audio signals</dc:description>
+        <dc:description xml:lang="pt-br">placa de expansão que fornece entrada e saída de sinais de áudio</dc:description>
+        <rdfs:label xml:lang="pt-br">Placa de Som</rdfs:label>
+        <rdfs:label xml:lang="en">SoundCard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvIT2K3x91SZw9MXbraeE1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvIT2K3x91SZw9MXbraeE1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FiAv0xDia91HUGxEkEV9t"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R4vv8xYyv1u2E5GLwL9ngz"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVARsTTpWN5rEFaz2UFMuD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7byFIsYPWHgGeMzPDpb8FZ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R74sdQUorOD9CtnsTFfTzHm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7byFIsYPWHgGeMzPDpb8FZ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDIEoi0r1BwiTKBzg1Tpu8k"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7byFIsYPWHgGeMzPDpb8FZ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDYp4Zwpz2ljI8nJKenJXdv"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDlnRwuvt7vonQOFWKS34M6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R87HrURmRtDPpdy3OOS4tbC"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RqaKu7cghednZgQQ7evwoa"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RxSvs7KnQrNEUW8zuZWzAd"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description xml:lang="pt-br">registro estruturado ou cronológico de falhas durante a execução do sistema ou software</dc:description>
+        <dc:description xml:lang="en">structured or chronological record of errors occurred during system execution</dc:description>
+        <rdfs:label xml:lang="en">ErrorReport</rdfs:label>
+        <rdfs:label xml:lang="pt-br">Relatório de Erro</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
